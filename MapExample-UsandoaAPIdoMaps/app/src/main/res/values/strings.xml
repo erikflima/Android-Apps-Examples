@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Map Example - Usando a API do Maps</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

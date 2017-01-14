@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Implicit Intent</string>
+    <string name="stringShare">Share - Erik information :)</string>
+    <string name="stringExplanation">This App share a simple text using an Intent. It gets all sharing option available in device.</string>
+</resources>

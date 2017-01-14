@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Call Activity from a Menu</string>
+    <string name="goToScreen1">Go to Screen 1</string>
+    <string name="goToScreen2">Go to Screen 2</string>
+</resources>

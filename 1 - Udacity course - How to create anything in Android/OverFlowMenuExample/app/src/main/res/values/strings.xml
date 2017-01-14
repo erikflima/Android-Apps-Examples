@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OverFlow Menu Example</string>
+
+    <string name="text1">Using Overflow menu :)</string>
+    <string name="blue_string">Color Blue</string>
+    <string name="green_string">Color Green</string>
+    <string name="yellow_string">Color Yellow</string>
+
+
+</resources>

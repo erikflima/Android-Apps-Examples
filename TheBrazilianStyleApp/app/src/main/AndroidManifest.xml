@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest
+
+    xmlns:android       ="http://schemas.android.com/apk/res/android"
+    package             ="com.appserik.android.thebrazilianstyleapp"
+    android:versionCode ="4"
+    android:versionName ="4.0">
+
+
+
+    <!-- Adicionando a permissao para usar a internet-->
+    <!-- Obs: Esse permissao em especial nao precisa de tratamento-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <!-- Adicionando a permissao para pegar o status da coneccao-->
+    <!-- Obs: Esse permissao em especial nao precisa de tratamento-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
+    <application
+        android:allowBackup ="true"
+        android:icon       ="@mipmap/ic_launcher"
+        android:label      ="@string/app_name"
+        android:supportsRtl="true"
+        android:theme      ="@style/AppTheme">
+
+
+
+        <!-- Splash do App-->
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+
+                <action   android:name ="android.intent.action.MAIN" />
+                <category android:name ="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+
+
+
+        <activity
+            android:name =".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+
+                <action android:name   ="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
+
+
+
+        <!-- Declarando a segunda tela de Informacoes do Developer-->
+        <activity
+            android:name=".DeveloperScreen">
+        </activity>
+
+
+    </application>
+
+</manifest>

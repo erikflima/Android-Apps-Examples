@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android        ="http://schemas.android.com/apk/res/android"
+    xmlns:tools          ="http://schemas.android.com/tools"
+    android:layout_width ="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width  ="match_parent"
+        android:layout_height ="match_parent"
+        android:background    ="@color/colorPrimary"
+        android:orientation   ="vertical"
+        tools:context         =".TelaAtracaoPrincipal"
+        android:weightSum     ="1">
+
+        <ImageView
+            android:layout_width  ="161dp"
+            android:layout_height ="91dp"
+            android:layout_gravity="center_horizontal"
+            android:src           ="@drawable/img_jurados_text" />
+
+
+
+        <ImageView
+            android:layout_width  ="124dp"
+            android:layout_height ="70dp"
+            android:layout_gravity="center_horizontal"
+            android:src           ="@drawable/img_jurados"
+            android:layout_weight="0.26" />
+
+
+
+        <RelativeLayout
+            android:layout_width ="match_parent"
+            android:layout_height="300dp">
+
+
+            <ImageView
+                android:layout_width            ="match_parent"
+                android:layout_height           ="match_parent"
+                android:layout_alignParentBottom="true"
+                android:src                     ="@drawable/img_jurado1"
+                android:background              ="@color/colorPrimary"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp" />
+
+
+            <ImageView
+                android:layout_width            ="56dp"
+                android:layout_height           ="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight ="true"
+                android:layout_marginRight      ="17dp"
+                android:src                     ="@drawable/ic_tsf"
+                android:background              ="@drawable/fundo_do_icone"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp" />
+
+
+            <TextView
+                android:layout_width            ="100dp"
+                android:layout_height           ="50dp"
+                android:layout_alignParentTop   ="true"
+                android:layout_alignParentLeft  ="true"
+                android:layout_marginRight      ="17dp"
+                android:layout_marginTop        ="5dp"
+                android:paddingTop              ="20dp"
+                android:paddingLeft             ="10dp"
+                android:text                    ="@string/string_crew1"
+                android:textSize                ="10dp"
+                android:textColor               ="#000000"
+                android:background              ="@drawable/fundo_do_icone"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp"
+                android:singleLine              ="true"
+                android:textStyle               ="bold|italic" />
+
+            <TextView
+                android:layout_width            ="96dp"
+                android:layout_height           ="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft ="true"
+                android:layout_marginRight      ="17dp"
+                android:layout_marginBottom     ="10dp"
+                android:paddingTop              ="17dp"
+                android:paddingLeft             ="14dp"
+                android:text                    ="@string/string_bgirl"
+                android:textColor               ="#000000"
+                android:background              ="@drawable/fundo_do_icone"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp"
+                android:singleLine="false"
+                android:textStyle="bold|italic" />
+
+        </RelativeLayout>
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width ="match_parent"
+            android:layout_height="300dp">
+
+            <ImageView
+                android:layout_width            ="match_parent"
+                android:layout_height           ="match_parent"
+                android:src                     ="@drawable/img_jurado2"
+                android:background              ="@color/colorPrimary"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp"
+                android:layout_alignParentBottom="true" />
+
+
+            <TextView
+                android:layout_width            ="100dp"
+                android:layout_height           ="50dp"
+                android:layout_alignParentTop   ="true"
+                android:layout_alignParentLeft  ="true"
+                android:layout_marginRight      ="17dp"
+                android:layout_marginTop        ="5dp"
+                android:paddingTop              ="15dp"
+                android:paddingLeft             ="10dp"
+                android:text                    ="@string/string_crew2"
+                android:textSize                ="10dp"
+                android:textColor               ="@color/black"
+                android:background              ="@drawable/fundo_do_icone"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp"
+                android:textStyle               ="bold|italic" />
+
+            <TextView
+                android:layout_width            ="96dp"
+                android:layout_height           ="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft  ="true"
+                android:layout_marginRight      ="17dp"
+                android:layout_marginBottom     ="10dp"
+                android:paddingTop              ="10dp"
+                android:paddingLeft             ="22dp"
+                android:text                    ="  B.boy\nPerninha"
+                android:textColor               ="@color/black"
+                android:textStyle               ="bold|italic"
+                android:background              ="@drawable/fundo_do_icone"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp"
+                android:singleLine              ="false"
+                />
+
+
+
+            <ImageView
+                android:layout_width            ="56dp"
+                android:layout_height           ="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight ="true"
+                android:layout_marginRight      ="17dp"
+                android:src                     ="@drawable/ic_tsf"
+                android:background              ="@drawable/fundo_do_icone"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width ="match_parent"
+            android:layout_height="300dp">
+
+            <ImageView
+                android:layout_width            ="match_parent"
+                android:layout_height           ="match_parent"
+                android:src                     ="@drawable/img_jurado3"
+                android:background              ="@color/colorPrimary"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp"
+                android:layout_alignParentBottom="true" />
+
+            <ImageView
+                android:layout_width            ="56dp"
+                android:layout_height           ="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight ="true"
+                android:layout_marginRight      ="17dp"
+                android:src                     ="@drawable/ic_tsf"
+                android:background              ="@drawable/fundo_do_icone"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp" />
+
+
+
+            <TextView
+                android:layout_width            ="100dp"
+                android:layout_height           ="50dp"
+                android:layout_alignParentTop   ="true"
+                android:layout_alignParentLeft  ="true"
+                android:layout_marginRight      ="17dp"
+                android:layout_marginTop        ="5dp"
+                android:paddingTop              ="15dp"
+                android:paddingLeft             ="10dp"
+                android:text                    ="ALIADOS FORCE\n         CREW"
+                android:textSize                ="10dp"
+                android:textColor               ="@color/black"
+                android:background              ="@drawable/fundo_do_icone"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp"
+                android:textStyle               ="bold|italic" />
+
+            <TextView
+                android:layout_width            ="96dp"
+                android:layout_height           ="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft  ="true"
+                android:layout_marginRight      ="17dp"
+                android:layout_marginBottom     ="10dp"
+                android:paddingTop              ="12dp"
+                android:paddingLeft             ="18dp"
+                android:text                    ="@string/string_bboy2"
+                android:textColor               ="@color/black"
+                android:textStyle               ="bold|italic"
+                android:background              ="@drawable/fundo_do_icone"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp"
+                android:singleLine              ="false" />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

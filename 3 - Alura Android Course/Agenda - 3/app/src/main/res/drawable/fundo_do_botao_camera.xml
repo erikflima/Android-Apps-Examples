@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  Usando o "layer-list" para montar o fundo do botao camera com camadas de imagem -->
+
+
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape
+            android:shape="oval">
+
+            <solid android:color="#ff0000" />
+
+            <!--  Ajustando o enchimento da forma. Quanto maior o padding, menor sera o espaco disponivel dentro da forma! -->
+            <padding
+                android:top    ="10dp"
+                android:bottom ="10dp"
+                android:left   ="10dp"
+                android:right  ="10dp" />
+
+        </shape>
+    </item>
+
+
+    <item
+        android:drawable="@drawable/ic_camera">
+    </item>
+
+
+</layer-list>
+
+
+

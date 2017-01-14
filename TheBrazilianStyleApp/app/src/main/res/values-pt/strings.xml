@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">#The Brazilian Style App</string>
+    <string name="message_to_share">#TheBrazilianStyle é um blog de moda masculina feito para inspirar e influenciar homens com seu real estilo \n Visite o blog: http://thebrazilianstyle.com/</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="string_about">Sobre o Kelvin</string>
+    <string name="string_about_app">Sobre o Aplicativo</string>
+    <string name="string_communicate">Entre em contato</string>
+    <string name="string_contact">Contatos</string>
+    <string name="string_developer">Desenvolvedor</string>
+    <string name="string_erik_email">erik.f.alves.lima@gmail.com</string>
+    <string name="string_erik_github">https://github.com/erik253</string>
+    <string name="string_erik_linkedin">https://br.linkedin.com/in/eriklima/en</string>
+    <string name="string_erik_name">Erik Lima</string>
+    <string name="string_erik_position">#Desenvolvedor Android#</string>
+    <string name="string_erik_skype">erik.alves.lima</string>
+    <string name="string_facebook">Facebook</string>
+    <string name="string_home">Início</string>
+    <string name="string_instagram">Instagram</string>
+    <string name="string_menu">Menu</string>
+    <string name="string_posts">Posts</string>
+    <string name="string_send">Envie uma mensagem</string>
+    <string name="string_share">Compartilhe</string>
+    <string name="string_social">Redes Sociais</string>
+    <string name="string_twitter">Twitter</string>
+    <string name="string_youtube">Youtube</string>
+</resources>

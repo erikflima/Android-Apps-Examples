@@ -1,0 +1,16 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.appserik.android.testeseufolegoapp.MainActivity">
+
+
+    <item
+        android:id              ="@+id/info"
+        android:orderInCategory ="100"
+        android:title           ="@string/string_opc_tsf"
+        app:showAsAction        ="always"
+        android:icon            ="@android:drawable/ic_menu_info_details"
+        />
+
+</menu>

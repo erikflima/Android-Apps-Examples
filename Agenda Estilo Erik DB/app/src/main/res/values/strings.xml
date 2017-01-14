@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name"    >Agenda - Erik Way 1.0</string>
+    <string name="hintNome"    >Nome</string>
+    <string name="hintEndereco">Endereço</string>
+    <string name="hintTelefone">Telefone</string>
+    <string name="hintSite"    >Site</string>
+    <string name="numStars"    >5</string>
+    <string name="valorMaximo" >10</string>
+    <string name="textSalvar"  >Salvar</string>
+    <string name="toast1"      >Botao Clicado</string>
+    <string name="buttonText"  >+</string>
+
+
+</resources>

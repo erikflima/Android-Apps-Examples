@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Opcoes do menu lateral-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="@string/string_menu">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/id_ic_home"
+                    android:title="@string/string_home"
+                    android:icon="@drawable/ic_home"
+                    />
+
+
+                <item
+                    android:id="@+id/id_ic_posts"
+                    android:title="@string/string_posts"
+                    android:icon="@drawable/ic_posts"
+                    />
+
+
+                <item
+                    android:id="@+id/id_about"
+                    android:title="@string/string_about"
+                    android:icon="@drawable/ic_brazilianstyle_home"/>
+
+                <item
+                    android:id="@+id/id_ic_contact"
+                    android:title="@string/string_contact"
+                    android:icon="@drawable/ic_menu_send"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="@string/string_social">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/id_ic_facebook"
+                    android:title="@string/string_facebook"
+                    android:icon="@drawable/ic_facebook"/>
+
+
+                <item
+                    android:id="@+id/id_ic_instagram"
+                    android:title="@string/string_instagram"
+                    android:icon="@drawable/ic_instagram"/>
+
+
+                <item
+                    android:id="@+id/id_youtube"
+                    android:title="@string/string_youtube"
+                    android:icon="@drawable/ic_youtube"/>
+
+                <item
+                    android:id="@+id/id_ic_twitter"
+                    android:title="@string/string_twitter"
+                    android:icon="@drawable/ic_twitter"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+
+
+    <item android:title="@string/string_communicate">
+
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/string_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/string_send" />
+        </menu>
+
+    </item>
+
+    <item android:title="@string/string_about_app">
+
+        <menu>
+            <item
+                android:id="@+id/id_opc_developer"
+                android:icon="@drawable/ic_android"
+                android:title="@string/string_developer" />
+
+        </menu>
+
+    </item>
+
+
+
+</menu>

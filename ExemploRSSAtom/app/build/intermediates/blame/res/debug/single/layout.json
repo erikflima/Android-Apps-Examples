@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Erik\\AndroidStudioProjects\\ExemploRSSAtom\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Erik\\AndroidStudioProjects\\ExemploRSSAtom\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erik\\AndroidStudioProjects\\ExemploRSSAtom\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rss.xml",
+        "source": "C:\\Users\\Erik\\AndroidStudioProjects\\ExemploRSSAtom\\app\\src\\main\\res\\layout\\rss.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erik\\AndroidStudioProjects\\ExemploRSSAtom\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_rsscontent.xml",
+        "source": "C:\\Users\\Erik\\AndroidStudioProjects\\ExemploRSSAtom\\app\\src\\main\\res\\layout\\activity_rsscontent.xml"
+    }
+]

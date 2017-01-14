@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android        ="http://schemas.android.com/apk/res/android"
+    xmlns:tools          ="http://schemas.android.com/tools"
+    android:layout_width ="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width  ="match_parent"
+        android:layout_height ="match_parent"
+        android:background    ="@color/colorPrimary"
+        android:orientation   ="vertical"
+        tools:context=".TelaDjs"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width  ="wrap_content"
+            android:layout_height ="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:src           ="@drawable/img_djs_txt"
+            android:layout_weight="0.26" />
+
+
+        <ImageView
+            android:layout_width  ="124dp"
+            android:layout_height ="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:src           ="@drawable/ic_djs"
+            android:layout_weight="0.26" />
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width ="match_parent"
+            android:layout_height="220dp">
+
+            <ImageView
+                android:layout_width            ="match_parent"
+                android:layout_height           ="match_parent"
+                android:src                     ="@drawable/img_dj_beto"
+
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp"
+                android:layout_alignParentBottom="true" />
+
+            <ImageView
+                android:layout_width            ="56dp"
+                android:layout_height           ="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight ="true"
+                android:layout_marginRight      ="17dp"
+                android:src                     ="@drawable/ic_tsf"
+                android:background              ="@drawable/fundo_do_icone"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp" />
+
+
+            <TextView
+                android:layout_width            ="wrap_content"
+                android:layout_height           ="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft  ="true"
+                android:layout_marginRight      ="17dp"
+                android:layout_marginBottom     ="15dp"
+                android:layout_marginLeft       ="10dp"
+                android:text                    ="@string/string_beto"
+                android:textSize                ="20sp"
+                android:textStyle               ="bold"
+                android:textColor               ="@color/white"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width ="match_parent"
+            android:layout_height="220dp">
+
+            <ImageView
+                android:layout_width            ="match_parent"
+                android:layout_height           ="match_parent"
+                android:layout_alignParentBottom="true"
+                android:src                     ="@drawable/img_djen"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp" />
+
+            <ImageView
+                android:layout_width            ="56dp"
+                android:layout_height           ="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight ="true"
+                android:layout_marginRight      ="17dp"
+                android:src                     ="@drawable/ic_tsf"
+                android:background              ="@drawable/fundo_do_icone"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp" />
+
+            <TextView
+                android:layout_width            ="wrap_content"
+                android:layout_height           ="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft  ="true"
+                android:layout_marginRight      ="17dp"
+                android:layout_marginBottom     ="11dp"
+                android:layout_marginLeft       ="10dp"
+                android:text                    ="@string/string_endoque"
+                android:textSize                ="20sp"
+                android:textStyle               ="bold"
+                android:textColor               ="@color/white"
+                android:typeface                ="serif" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width ="match_parent"
+            android:layout_height="220dp">
+
+            <ImageView
+                android:layout_width            ="match_parent"
+                android:layout_height           ="match_parent"
+                android:src                     ="@drawable/img_dj_joao"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp"
+                android:layout_alignParentBottom="true" />
+
+            <ImageView
+                android:layout_width            ="56dp"
+                android:layout_height           ="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight ="true"
+                android:layout_marginRight      ="17dp"
+                android:src                     ="@drawable/ic_tsf"
+                android:background              ="@drawable/fundo_do_icone"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp" />
+
+            <TextView
+                android:layout_width            ="wrap_content"
+                android:layout_height           ="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft  ="true"
+                android:layout_marginRight      ="17dp"
+                android:layout_marginBottom     ="15dp"
+                android:layout_marginLeft       ="10dp"
+                android:text                    ="@string/string_nilo"
+                android:textSize                ="20sp"
+                android:textStyle               ="bold"
+                android:textColor               ="@color/white"
+                android:typeface                ="serif" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

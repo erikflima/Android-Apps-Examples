@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Toggle Buttons</string>
+
+    <string name="string_TurnOn"     >Turn On</string>
+    <string name="string_TurnOff"    >Turn Off</string>
+    <string name="string_btn_display">Display</string>
+
+    <string name="string_TurnOn_2"     >Press to On</string>
+    <string name="string_TurnOff_2"    >Press to Off</string>
+
+
+</resources>

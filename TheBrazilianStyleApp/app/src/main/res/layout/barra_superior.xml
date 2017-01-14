@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Barra Superior -->
+
+<android.support.design.widget.CoordinatorLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app    ="http://schemas.android.com/apk/res-auto"
+    xmlns:tools  ="http://schemas.android.com/tools"
+
+
+    android:layout_width     ="match_parent"
+    android:layout_height    ="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context            ="com.appserik.android.thebrazilianstyleapp.MainActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width ="match_parent"
+        android:layout_height="wrap_content"
+        android:theme        ="@style/AppTheme.AppBarOverlay">
+
+
+
+        <android.support.v7.widget.Toolbar
+            android:id            ="@+id/id_barra_superior"
+            android:layout_width  ="match_parent"
+            android:layout_height ="?attr/actionBarSize"
+            app:logo              ="@drawable/img_appbar"
+            app:title             ="."
+            app:titleTextColor    ="#ffcd05"
+            />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <include layout="@layout/tela_principal" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id              ="@+id/fab"
+        android:layout_width    ="wrap_content"
+        android:layout_height   ="wrap_content"
+        android:layout_gravity  ="bottom|end"
+        android:layout_margin   ="@dimen/fab_margin"
+        android:src             ="@android:drawable/stat_notify_sync"
+        android:adjustViewBounds="true"
+        app:backgroundTint      ="#ffcd05"
+        android:visibility      ="invisible"/>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

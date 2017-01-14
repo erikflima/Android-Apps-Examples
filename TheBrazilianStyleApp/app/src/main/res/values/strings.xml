@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Opcoes do menu lateral-->
+
+    <string name="app_name">The Brazilian Style App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="message_to_share">#TheBrazilianStyle is a menswear fashion blog designed to influence and inspire men with real style \n Check it out the blog: http://thebrazilianstyle.com/</string>
+
+
+    <!-- Opcoes do menu lateral-->
+
+    <string name="string_menu">Menu</string>
+    <string name="string_social">Social</string>
+    <string name="string_communicate">Communicate</string>
+    <string name="string_home">Home</string>
+    <string name="string_posts">Posts</string>
+    <string name="string_about">About Kelvin</string>
+    <string name="string_contact">Contact</string>
+    <string name="string_facebook">Facebook</string>
+    <string name="string_instagram">Instagram</string>
+    <string name="string_youtube">Youtube</string>
+    <string name="string_twitter">Twitter</string>
+    <string name="string_share">Share</string>
+    <string name="string_send">Send me a message</string>
+    <string name="string_about_app">About The App</string>
+    <string name="string_developer">App Developer</string>
+
+
+
+    <!-- Strings tela Desenvolvedor-->
+
+    <string name="string_erik_name">Erik Lima</string>
+    <string name="string_erik_position">#Android Developer#</string>
+    <string name="string_erik_linkedin">https://br.linkedin.com/in/eriklima/en</string>
+    <string name="string_erik_github">https://github.com/erik253</string>
+    <string name="string_erik_skype">erik.alves.lima</string>
+    <string name="string_erik_email">erik.f.alves.lima@gmail.com</string>
+
+
+
+</resources>

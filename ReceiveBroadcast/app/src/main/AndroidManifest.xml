@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appserik.android.receivebroadcast">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+        <!-- declarando o BroadcastReceiver -->
+        <receiver
+            android:name=".RecebedorDeBroadcast"
+            android:enabled="true"
+            android:exported="true">
+
+            <!-- Colando um filtro, dizendo que so quero pegar as transmissoes que vierem do app SendBroadcast -->
+            <intent-filter>
+                <action android:name="com.appserik.android.sendbroadcast" > </action>
+            </intent-filter>
+
+        </receiver>
+
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Call a New Activity</string>
+
+    <string name="screen1">Screen 1</string>
+    <string name="screen2">Screen 2</string>
+    <string name="string1">Go to screen 2</string>
+    <string name="string2">Go to screen 1</string>
+</resources>

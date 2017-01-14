@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Static AutoCompleteTextView</string>
+
+    <string name="opc">AutoComplete Options: \n
+        "> Australia"\n
+        "> Canada"\n
+        "> China"\n
+        "> Ireland"\n
+        "> United States of America"\n
+        "> Japan"\n
+
+    </string>
+
+</resources>

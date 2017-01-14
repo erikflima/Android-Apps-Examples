@@ -1,0 +1,98 @@
+<resources>
+
+    <!-- Opcoes do menu lateral-->
+
+    <string name="app_name"               >Teste Seu Folego App</string>
+    <string name="navigation_drawer_open" >Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!-- Opcoes do menu lateral-->
+
+    <string name="string_evento"            >O Evento</string>
+        <string name="string_tsf"           >TSF</string>
+        <string name="string_atracao"       >Atração Musical</string>
+        <string name="string_djs"           >Time de DJs</string>
+        <string name="string_jurados"       >Jurados</string>
+        <string name="string_patrocinadores">Patrocinadores</string>
+        <string name="string_contato"       >Contato</string>
+        <string name="string_compartilhar">Compartilhar o TSF</string>
+
+    <string name="string_local"             >Local do Evento</string>
+        <string name="string_chegar"        >Como Chegar</string>
+
+    <string name="string_inscricoes"        >Inscrições Online</string>
+        <string name="string_inscrevase"    >Campeonato de Break 1x1</string>
+
+    <string name="string_social"            >Redes Sociais</string>
+        <string name="string_blog"          >Blog TSF</string>
+        <string name="string_facebook"      >Facebook</string>
+        <string name="string_instagram"     >Instagram</string>
+        <string name="string_youtube"       >Youtube</string>
+
+
+    <string name="string_compartilhe">Compartilhe o TSF</string>
+
+
+
+    <!-- Developer strings-->
+    <string name="string_sobreapp"          >Sobre o Aplicativo</string>
+        <string name="string_developer"     >Desenvolvedor</string>
+        <string name="string_erik_name"     >Erik Lima</string>
+        <string name="string_erik_position" >#Desenvolvedor Android#</string>
+        <string name="string_erik_linkedin" >https://br.linkedin.com/in/eriklima/en</string>
+        <string name="string_erik_github"   >https://github.com/erik253</string>
+        <string name="string_erik_skype"    >erik.alves.lima</string>
+        <string name="string_erik_email"    >erik.f.alves.lima@gmail.com</string>
+
+    <!-- Djs-->
+    <string name="string_beto"          >Beto</string>
+    <string name="string_endoque"       >Endoque</string>
+    <string name="string_nilo"          >Niko</string>
+
+    <!-- Jurados-->
+    <string name="string_crew1"          >DOPE GIRLS CREW</string>
+    <string name="string_bgirl"          >B.girl Ingrid</string>
+    <string name="string_crew2"          >KILLA ROCKERS\nGANG GANGRENA</string>
+    <string name="string_bboy2"          >B.boy Tito</string>
+
+
+    <!-- Setings-->
+    <string name="string_opc_tsf"        >O que é o TSF?</string>
+    <string name="string_opc_tsf1"        >Teste Seu Fôlego é um evento realizado pela produtora Union Break</string>
+    <string name="string_opc_tsf2"        >Tem como proposta realizar campeonatos de break juntando todos elementos do Hip Hop, propondo elevar o nível de breaking no Brasil</string>
+    <string name="string_opc_tsf3"        >através de desafios e facilitar a concorrência saudável, representado por diferentes grupos de jovens expoentes desta disciplina</string>
+    <string name="string_opc_tsf4"        >Compartilhando preocupações, gostos em comum, a troca experiências e enriquecendo as técnicas de dança. </string>
+
+    <!-- Endereco-Data-->
+    <string name="string_parque"          >Espaço CAJUV</string>
+    <string name="string_endereco"        >Avenida Redenção, 271\nJardim do Mar, São Bernardo do Campo - SP \nAo lado do Paço Municipal.</string>
+
+    <string name="string_endereco2"       >Local e Data do Evento</string>
+    <string name="string_data_hora"       >Data e Hora</string>
+
+    <string name="string_data_hora_info"  >Data: 30 de Julho de 2016\nHorário: Apartir das 13hs</string>
+
+
+
+    <!-- Patrocinio-->
+    <string name="string_opc_patrocinio"        >Parceiros Do Evento</string>
+
+
+
+
+    <string name="string_rapadura"     >Rapadura</string>
+    <string name="string_rapadura_text">
+        Francisco Igor Almeida dos Santos nasceu em 1984, no município de Lagoa Seca, uma Vila na periferia de Fortaleza - Ceará, e como centenas de sertanejos, migrou com sua família para Brasília em 1997, quando ainda era adolescente.\n\n
+        O apelido vem da sua paixão pela rapadura, nome de um famoso doce tipicamente nordestino, feito do puro sumo da cana e conhecido por fornecer muita energia e vitalidade para quem o consome.\n\n
+        Rapadura costumava comer um pote de rapadura depois das exaustivas peladas de futebol com os amigos. A saudade que sentia do Nordeste o influenciou na composição de suas primeiras músicas.\n\n
+        A inspiração chegou por necessidade quando decidiu fazer uma “coisa diferente”, uma música que as pessoas gostassem de ouvir. Comprou alguns discos de baião e começou a ouvir em casa.\n\n
+    </string>
+
+
+
+    <!-- Chave da geracao de anuncio do admob-->
+    <string name="string_chave_anunio_admob" >ca-app-pub-2040021151549772/5761894248</string>
+
+
+</resources>

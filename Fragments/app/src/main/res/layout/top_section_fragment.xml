@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width ="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft  ="@dimen/activity_horizontal_margin"
+    android:paddingRight ="@dimen/activity_horizontal_margin"
+    android:paddingTop   ="@dimen/activity_vertical_margin"
+    android:background="#000000"
+    tools:context        ="com.appserik.android.fragments.MainActivity">
+
+
+    <TextView
+        android:id                     ="@+id/text0"
+        android:layout_width           ="wrap_content"
+        android:layout_height          ="wrap_content"
+        android:layout_alignParentTop  ="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop       ="10dp"
+        android:text="Fragment 1"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <EditText
+
+        android:id                     ="@+id/topTextInput"
+        android:layout_width           ="wrap_content"
+        android:layout_height          ="wrap_content"
+        android:layout_below           ="@+id/text0"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop       ="10dp"
+        android:width                  ="300dp"
+        android:background="#04c9ff"/>
+
+
+    <EditText
+
+        android:id                     ="@+id/bottomTextInput"
+        android:layout_width           ="wrap_content"
+        android:layout_height          ="wrap_content"
+        android:layout_below           ="@id/topTextInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop       ="11dp"
+        android:width                  ="300dp"
+        android:background="#10ff54"/>
+
+    <Button
+        android:id                     ="@+id/button"
+        android:layout_width           ="wrap_content"
+        android:layout_height          ="wrap_content"
+        android:text                   ="Button"
+        android:layout_below           ="@+id/bottomTextInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop       ="10dp" />/>
+
+
+
+</RelativeLayout>

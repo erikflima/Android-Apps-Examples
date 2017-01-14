@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android        ="http://schemas.android.com/apk/res/android"
+    xmlns:tools          ="http://schemas.android.com/tools"
+    android:layout_width ="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width  ="match_parent"
+        android:layout_height ="match_parent"
+        android:orientation   ="vertical"
+        tools:context=".TelaDeveloperScreen">
+
+
+
+        <RelativeLayout
+            android:layout_width ="match_parent"
+            android:layout_height="220dp">
+
+            <ImageView
+                android:id                      ="@+id/id_imv_developer"
+                android:layout_width            ="match_parent"
+                android:layout_height           ="match_parent"
+                android:src                     ="@drawable/erik1"
+                android:background              ="@color/colorPrimary"
+                android:layout_alignParentBottom="true" />
+
+            <ImageView
+                android:id                       ="@+id/id_imv_brazilian"
+                android:layout_width            ="56dp"
+                android:layout_height           ="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight ="true"
+                android:layout_marginRight      ="17dp"
+                android:src                     ="@drawable/ic_tsf"
+                android:background              ="@drawable/fundo_do_icone"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp" />
+
+
+
+
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:id            ="@+id/id_txt_nome"
+            android:layout_width  ="wrap_content"
+            android:layout_height ="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop    ="8dp"
+            android:paddingLeft   ="10dp"
+            android:text          ="@string/string_erik_name"
+            android:textSize      ="20sp"
+            android:textStyle     ="bold" />
+
+
+        <TextView
+            android:id            ="@+id/id_txt_position"
+            android:layout_width  ="wrap_content"
+            android:layout_height ="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop    ="8dp"
+            android:paddingLeft   ="10dp"
+            android:text          ="@string/string_erik_position"
+            android:textSize      ="16sp"
+            android:textStyle     ="bold" />
+
+
+        <ImageView
+            android:id            ="@+id/id_imv_android"
+            android:layout_width  ="50dp"
+            android:layout_height ="50dp"
+            android:layout_gravity="center_horizontal"
+            android:src           ="@drawable/ic_android_green" />
+
+
+        <TextView
+            android:id              ="@+id/id_imv_contact"
+            android:layout_width    ="wrap_content"
+            android:layout_height   ="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft     ="10dp"
+            android:layout_gravity  ="center_horizontal"
+            android:text            ="@string/string_contato"
+            android:textSize        ="16sp"
+            android:textStyle       ="bold" />
+
+
+
+
+        <RelativeLayout
+            android:layout_width ="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity  ="center_horizontal"
+            android:paddingBottom ="@dimen/activity_vertical_margin"
+            android:paddingLeft   ="@dimen/activity_horizontal_margin"
+            android:paddingRight  ="@dimen/activity_horizontal_margin"
+            android:paddingTop    ="@dimen/activity_vertical_margin">
+
+
+            <ImageView
+                android:id                     ="@+id/id_imv_linkedin"
+                android:layout_width           ="30dp"
+                android:layout_height          ="30dp"
+                android:layout_marginLeft      ="35dp"
+                android:paddingRight           ="8dp"
+                android:src                    ="@drawable/ic_linkedin"
+                android:clickable="true"/>
+
+
+            <TextView
+                android:id              ="@+id/id_txt_linkedin"
+                android:layout_width    ="wrap_content"
+                android:layout_height   ="wrap_content"
+                android:layout_toRightOf="@id/id_imv_linkedin"
+                android:paddingTop      ="12dp"
+                android:text            ="@string/string_erik_linkedin"
+                android:textSize        ="14sp"
+                android:textStyle       ="bold" />
+
+
+
+
+            <ImageView
+                android:id                     ="@+id/id_imv_github"
+                android:layout_width           ="30dp"
+                android:layout_height          ="30dp"
+                android:layout_marginLeft      ="35dp"
+                android:layout_below           ="@id/id_imv_linkedin"
+                android:paddingRight           ="8dp"
+                android:src                    ="@drawable/ic_github" />
+
+            <TextView
+                android:id              ="@+id/id_txt_github"
+                android:layout_width    ="wrap_content"
+                android:layout_height   ="wrap_content"
+                android:layout_toRightOf="@id/id_imv_github"
+                android:layout_below    = "@id/id_imv_linkedin"
+                android:paddingTop      ="12dp"
+                android:text            ="@string/string_erik_github"
+                android:textSize        ="14sp"
+                android:textStyle       ="bold" />
+
+
+
+            <ImageView
+                android:id                     ="@+id/id_imv_skype"
+                android:layout_width           ="30dp"
+                android:layout_height          ="30dp"
+                android:layout_marginLeft      ="35dp"
+                android:layout_below           ="@id/id_imv_github"
+                android:paddingRight           ="8dp"
+                android:src                    ="@drawable/ic_skype" />
+
+            <TextView
+                android:id              ="@+id/id_txt_skype"
+                android:layout_width    ="wrap_content"
+                android:layout_height   ="wrap_content"
+                android:layout_toRightOf="@id/id_imv_skype"
+                android:layout_below    = "@id/id_txt_github"
+                android:paddingTop      ="12dp"
+                android:text            ="@string/string_erik_skype"
+                android:textSize        ="14sp"
+                android:textStyle       ="bold" />
+
+
+            <ImageView
+                android:id                     ="@+id/id_imv_msg"
+                android:layout_width           ="30dp"
+                android:layout_height          ="30dp"
+                android:layout_marginLeft      ="35dp"
+                android:layout_below           = "@id/id_imv_skype"
+                android:paddingRight           ="8dp"
+                android:src                    ="@drawable/ic_msg" />
+
+            <TextView
+                android:id              ="@+id/id_txt_msg"
+                android:layout_width    ="wrap_content"
+                android:layout_height   ="wrap_content"
+                android:layout_toRightOf="@id/id_imv_skype"
+                android:layout_below    = "@id/id_txt_skype"
+                android:paddingTop      ="12dp"
+                android:text            ="@string/string_erik_email"
+                android:textSize        ="14sp"
+                android:textStyle       ="bold"
+                android:linksClickable="true"/>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+

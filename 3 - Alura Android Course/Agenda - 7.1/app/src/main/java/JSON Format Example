@@ -1,0 +1,27 @@
+{
+  "list": [
+    {
+      "aluno": [
+        {
+          "id": "1",
+          "nome": "Erik",
+          "endereco": "Market Street, 23 - Philadelphia",
+          "telefone": "12345678",
+          "site": "www.google.ca",
+          "nota": "4.5"
+        },
+        {
+          "id": "2",
+          "nome": "Erik2",
+          "endereco": "Market Street, 23 - Philadelphia",
+          "telefone": "123456789",
+          "site": "www.google.ca",
+          "nota": "5.0"
+        }
+      ]
+    }
+  ]
+}
+
+
+

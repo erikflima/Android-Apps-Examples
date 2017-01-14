@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android        ="http://schemas.android.com/apk/res/android"
+    xmlns:tools          ="http://schemas.android.com/tools"
+    android:layout_width ="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width  ="match_parent"
+        android:layout_height ="match_parent"
+        android:background    ="@drawable/background_2"
+        android:orientation   ="vertical"
+        tools:context=".TelaAtracaoPrincipal"
+        android:weightSum="1">
+
+
+
+        <RelativeLayout
+            android:layout_width ="match_parent"
+            android:layout_height="220dp"
+            >
+
+            <ImageView
+                android:layout_width            ="match_parent"
+                android:layout_height           ="match_parent"
+                android:src                     ="@drawable/img_cajuv"
+                android:background              ="@color/colorPrimary"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp"
+                android:layout_alignParentBottom="true" />
+
+            <ImageView
+                android:layout_width            ="56dp"
+                android:layout_height           ="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight ="true"
+                android:layout_marginRight      ="17dp"
+                android:src                     ="@drawable/ic_tsf"
+                android:background              ="@drawable/fundo_do_icone"
+                android:stateListAnimator       ="@null"
+                android:elevation               ="10dp" />
+
+
+
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:layout_width  ="wrap_content"
+            android:layout_height ="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop    ="8dp"
+            android:paddingLeft   ="10dp"
+            android:text          ="@string/string_local"
+            android:textSize      ="25sp"
+            android:textStyle     ="bold"
+            android:layout_marginBottom="7dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="#141414"
+            android:typeface="serif" />
+
+
+
+
+        <ImageView
+            android:layout_width  ="124dp"
+            android:layout_height ="70dp"
+            android:layout_gravity="center_horizontal"
+            android:src           ="@drawable/ic_chegar"
+            android:layout_weight="0.26" />
+
+        <TextView
+            android:layout_width    ="wrap_content"
+            android:layout_height   ="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft     ="10dp"
+            android:layout_gravity  ="center_horizontal"
+            android:text            ="@string/string_parque"
+            android:textSize        ="18dp"
+            android:textStyle       ="bold"
+            android:textColorHighlight="@color/black"
+            android:textColor="@color/black"
+            android:typeface="sans" />
+
+        <TextView
+            android:layout_width    ="wrap_content"
+            android:layout_height   ="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft     ="10dp"
+            android:layout_gravity  ="center_horizontal"
+            android:text            ="@string/string_endereco"
+            android:textSize        ="16dp"
+            android:textStyle       ="bold"
+            android:textColorHighlight="@color/black"
+            android:textColor="@color/black"
+            android:typeface="sans" />
+
+
+        <TextView
+            android:layout_width  ="wrap_content"
+            android:layout_height ="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop    ="8dp"
+            android:paddingLeft   ="10dp"
+            android:text          ="@string/string_data_hora"
+            android:textSize      ="25dp"
+            android:textStyle     ="bold"
+            android:layout_marginBottom="7dp"
+            android:textColor="#000000"
+            android:textColorHighlight="#141414"
+            android:typeface="serif" />
+
+        <ImageView
+            android:layout_width  ="124dp"
+            android:layout_height ="70dp"
+            android:layout_gravity="center_horizontal"
+            android:src           ="@drawable/ic_clock"
+            android:layout_weight="0.26" />
+
+        <TextView
+            android:layout_width    ="wrap_content"
+            android:layout_height   ="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft     ="10dp"
+            android:layout_gravity  ="center_horizontal"
+            android:text            ="@string/string_data_hora_info"
+            android:textSize        ="16dp"
+            android:textStyle       ="bold"
+            android:textColorHighlight="@color/black"
+            android:textColor="@color/black"
+            android:typeface="sans" />
+
+
+        <ImageView
+            android:layout_width  ="197dp"
+            android:layout_height ="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src           ="@drawable/ic_text_tsf" />
+    </LinearLayout>
+
+</ScrollView>

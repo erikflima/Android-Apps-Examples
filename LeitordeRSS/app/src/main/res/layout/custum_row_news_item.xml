@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView
+
+    xmlns:android           ="http://schemas.android.com/apk/res/android"
+    xmlns:app               ="http://schemas.android.com/apk/res-auto"
+
+    android:id              ="@+id/cardview"
+    android:orientation     ="vertical"
+    android:layout_width    ="match_parent"
+    android:layout_height   ="match_parent"
+    app:cardElevation       ="4dp"
+    app:cardBackgroundColor ="@color/cardview_dark_background"
+        >
+
+
+    <RelativeLayout
+
+        android:layout_width ="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id                     ="@+id/date_text"
+            android:layout_width           ="wrap_content"
+            android:layout_height          ="wrap_content"
+            android:textAppearance         ="?android:attr/textAppearanceSmall"
+            android:text                   ="Small Text"
+            android:layout_alignParentTop  ="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd  ="true"
+            android:layout_margin          ="@dimen/activity_horizontal_margin"
+            />
+
+
+        <ImageView
+            android:id                      ="@+id/thumb_img"
+            android:src                     ="@drawable/example"
+            android:layout_width            ="match_parent"
+            android:layout_height           ="200dp"
+            android:layout_below            ="@+id/date_text"
+            android:layout_centerHorizontal ="true" />
+
+
+        <TextView
+            android:id                      ="@+id/title_text"
+            android:layout_width            ="match_parent"
+            android:layout_height           ="wrap_content"
+            android:lines                   ="1"
+            android:textAppearance          ="?android:attr/textAppearanceLarge"
+            android:gravity                 ="center"
+            android:background              ="#80000000"
+            android:text                    ="Large Text"
+            android:layout_alignBottom      ="@+id/thumb_img"
+            android:layout_centerHorizontal ="true" />
+
+
+        <TextView
+            android:id                      ="@+id/decription_test"
+            android:layout_width            ="match_parent"
+            android:layout_height           ="wrap_content"
+            android:textAppearance          ="?android:attr/textAppearanceMedium"
+            android:text                    ="Medium Text"
+            android:layout_below            ="@+id/title_text"
+            android:layout_alignParentLeft  ="true"
+            android:layout_alignParentStart ="true"
+            android:layout_margin           ="@dimen/activity_horizontal_margin"
+            />
+
+
+    </RelativeLayout>
+
+
+    
+</android.support.v7.widget.CardView>
