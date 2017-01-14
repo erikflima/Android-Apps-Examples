@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android         ="http://schemas.android.com/apk/res/android"
+    xmlns:tools           ="http://schemas.android.com/tools"
+    android:layout_width  ="match_parent"
+    android:layout_height ="match_parent"
+    android:orientation   ="vertical"
+
+    android:paddingBottom="16dp"
+    android:paddingLeft  ="16dp"
+    android:paddingRight ="16dp"
+    android:paddingTop   ="16dp"
+    tools:context        ="com.example.android.courtcounter.MainActivity"
+
+    >
+
+    <TextView
+        android:layout_width  ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:text          ="Team A"
+        android:layout_gravity="center"
+        />
+
+
+    <TextView
+        android:layout_width  ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:text          ="0"
+        android:layout_gravity="center"
+        android:id            ="@+id/team_a_score"
+        />
+    
+    <Button
+        android:layout_width  ="match_parent"
+        android:layout_height ="wrap_content"
+        android:text          ="+3 Points"
+        android:layout_gravity="center"
+        android:onClick="add3"
+        />
+
+    <Button
+        android:layout_width  ="match_parent"
+        android:layout_height ="wrap_content"
+        android:text          ="+2 Points"
+        android:layout_gravity="center"
+        android:onClick       ="add2"
+        />
+
+    <Button
+        android:layout_width  ="match_parent"
+        android:layout_height ="wrap_content"
+        android:text          ="Free throw"
+        android:layout_gravity="center"
+        android:onClick       ="add1"
+        />
+
+
+
+</LinearLayout>

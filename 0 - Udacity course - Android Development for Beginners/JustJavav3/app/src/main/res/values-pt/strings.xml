@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Peça seu Café v3</string>
+
+    <string name="strings_1">Digite o seu nome aqui :)</string>
+    <string name="strings_2">Adicionais</string>
+    <string name="strings_3">Creme por mais $1</string>
+    <string name="strings_4">Chocolate por mais $2</string>
+    <string name="strings_5">Quantidade</string>
+    <string name="strings_6">+</string>
+    <string name="strings_7">1</string>
+    <string name="strings_8">-</string>
+    <string name="strings_9">Descrição do Pedido</string>
+    <string name="strings_10">$0</string>
+    <string name="strings_11">Pedido</string>
+    <string name="strings_12">Mensagem PT</string>
+
+</resources>

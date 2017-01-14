@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Just Java v3</string>
+
+    <string name="strings_1">Type your name here :)</string>
+    <string name="strings_2">Toppings</string>
+    <string name="strings_3">Whipped cream for $1</string>
+    <string name="strings_4">Chocolate for $2    </string>
+    <string name="strings_5">Quantity</string>
+    <string name="strings_6">+</string>
+    <string name="strings_7">1</string>
+    <string name="strings_8">-</string>
+    <string name="strings_9">Order Summary</string>
+    <string name="strings_10">$0</string>
+    <string name="strings_11">Order</string>
+    <string name="strings_12">Order Message EN</string>
+
+</resources>
